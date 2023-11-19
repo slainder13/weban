@@ -1,8 +1,8 @@
 import os
 import sys
 sys.path.append('__init__')
-import get_ip as ad
-import file_mg as file
+from __init__ import get_ip as ad
+from __init__ import file_mg as file
 from art import *
 from termcolor import colored
 
